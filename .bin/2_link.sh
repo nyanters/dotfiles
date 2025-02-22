@@ -41,7 +41,7 @@ function mkdir_w_mes () {
 function link2homedir () {
   command echo "backup old dotfiles..."
   for f in $dotdir/.??*; do
-    for line in `cat "${script_dir}/02_link.txt"`; do
+    for line in `cat "${script_dir}/2_link.txt"`; do
       if [[ "$f" == "${dotdir}/${line}" ]]; then
         continue 2
       fi
