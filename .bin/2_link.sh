@@ -3,15 +3,18 @@ set -euxo pipefail
 readonly bak_dir="$HOME/.dotbackup"
 readonly script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 readonly dotdir=$(dirname ${script_dir})
-function cfg2homedir () {
-  for f in ${dotdir}/.config/**; do
-    ln -snf ${f} $HOME/.config/`basename ${f}`
+function 2homedir () {
+  for f in ${dotdir}/${1}/**; do
+    ln -snf ${f} $HOME/${1}/$(basename ${f})
   done
 }
 function check_homedir () {
   if [[ "$HOME" != "$dotdir" ]]; then
     for f in $1/.??*; do
       if [[ "${f}" == "$1/.config" ]]; then
+        continue
+      fi
+      if [[ "${f}" == "$1/.zsh" ]]; then
         continue
       fi
       if [[ -L "$2/`basename $f`" ]];then
@@ -38,7 +41,7 @@ function mkdir_w_mes () {
 function link2homedir () {
   command echo "backup old dotfiles..."
   for f in $dotdir/.??*; do
-    for line in `cat "${script_dir}/2_link.txt"`; do
+    for line in `cat "${script_dir}/02_link.txt"`; do
       if [[ "$f" == "${dotdir}/${line}" ]]; then
         continue 2
       fi
@@ -64,9 +67,12 @@ function main_func () {
   mkdir_w_mes "${bak_dir}"
   check_homedir ${dotdir} $HOME ${bak_dir}
   mkdir_w_mes "$HOME/.config"
+  mkdir_w_mes "$HOME/.zsh"
   link2homedir
   check_homedir ${dotdir}.config $HOME/.config "${bak_dir}/.config"
-  cfg2homedir
+  check_homedir ${dotdir}.zsh $HOME/.zsh "${bak_dir}/.zsh"
+  2homedir .config
+  2homedir .zsh
   git config --global include.path "~/.gitconfig_shared"
   command echo -e "Install completed!!!!"
 }
