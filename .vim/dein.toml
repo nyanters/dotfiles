@@ -1,0 +1,14 @@
+[[plugins]]
+hook_add = '''
+  let g:rainbow_active = 1
+'''
+repo = 'luochen1990/rainbow'
+
+[[plugins]]
+repo = 'preservim/nerdtree'
+
+[[plugins]]
+repo = 'Shougo/vimproc.vim'
+
+[[plugins]]
+repo = 'thinca/vim-quickrun'

@@ -1,0 +1,70 @@
+[[plugins]]
+hook_add = '''
+  let g:table_mode_corner = '|'
+'''
+on_ft = [
+  'markdown',
+  'text'
+]
+repo = 'dhruvasagar/vim-table-mode'
+
+[[plugins]]
+on_ft = [
+  'csv',
+  'csv_pipe',
+  'csv_semicolon',
+  'csv_whitespace',
+  'rfc_csv',
+  'rfc_semicolon',
+  'tsv'
+]
+repo = 'mechatroner/rainbow_csv'
+
+[[plugins]]
+hook_add = '''
+  let g:vim_markdown_frontmatter = 1
+  let g:vim_markdown_strikethrough = 1
+'''
+on_ft = 'markdown'
+repo = 'preservim/vim-markdown'
+
+[[plugins]]
+hook_add = '''
+  if has('mac')
+    let g:previm_open_cmd = 'open -a "Google Chrome"'
+  endif
+  let g:previm_enable_realtime = 1
+'''
+on_ft = [
+  'html',
+  'markdown'
+]
+repo = 'previm/previm'
+
+[[plugins]]
+on_ft = ''
+repo = 'rootkiter/vim-hexedit'
+
+[[plugins]]
+hook_add = '''
+  let g:preview_markdown_parser = 'glow'
+'''
+on_ft = 'markdown'
+repo = 'skanehira/preview-markdown.vim'
+
+[[plugins]]
+hook_add = '''
+  let g:bracey_auto_start_server = 1
+  let g:bracey_server_allow_remote_connections = 1
+'''
+on_ft = [
+  'html',
+  'markdown'
+]
+repo = 'turbio/bracey.vim'
+
+[[plugins]]
+hook_add = '''
+'''
+on_ft = 'markdown'
+repo = 'tyru/open-browser.vim'
