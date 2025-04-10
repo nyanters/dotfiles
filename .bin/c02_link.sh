@@ -1,5 +1,5 @@
 #!usr/bin/env bash
-set -euxo pipefail
+set -euo pipefail
 readonly bak_dir="$HOME/.dotbackup"
 readonly script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
 readonly dotdir=$(dirname ${script_dir})
@@ -11,10 +11,7 @@ function 2homedir () {
 function check_homedir () {
   if [[ "$HOME" != "$dotdir" ]]; then
     for f in $1/.??*; do
-      if [[ "${f}" == "$1/.config" ]]; then
-        continue
-      fi
-      if [[ "${f}" == "$1/.zsh" ]]; then
+      if [[ "${f}" == "$1/.config" || "${f}" == "$1/.zsh" ]]; then
         continue
       fi
       if [[ -L "$2/`basename $f`" ]];then
@@ -41,7 +38,7 @@ function mkdir_w_mes () {
 function link2homedir () {
   command echo "backup old dotfiles..."
   for f in $dotdir/.??*; do
-    for line in `cat "${script_dir}/2_link.txt"`; do
+    for line in `cat "${script_dir}/c02_link.txt"`; do
       if [[ "$f" == "${dotdir}/${line}" ]]; then
         continue 2
       fi

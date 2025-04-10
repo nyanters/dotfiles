@@ -1,0 +1,8 @@
+docopt-ng
+pillow
+pycairo
+pyxel
+six
+svglib
+svgutils
+toml
