@@ -2,7 +2,7 @@
 set -eoux pipefail
 SCR_DIR=$(cd "$(dirname "$0")"; pwd)
 cd "${SCR_DIR}"
-source c01_os.sh
+# source c01_os.sh
 source c02_link.sh
 if [[ "$(uname)" == "Darwin" ]]; then
   source m01_init.sh
