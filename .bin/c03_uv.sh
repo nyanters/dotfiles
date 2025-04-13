@@ -12,6 +12,9 @@ function usage () {
 }
 function uv_pip () {
   local _fn="$(basename "$(test -L "$0" && readlink "$0" || echo "$0")" .sh)"
+  if [[ "$(uname)" == "Linux" ]] ; then
+    curl -LsSf https://astral.sh/uv/install.sh | sh
+  fi
   cd
   uv venv
   source ~/.venv/bin/activate
