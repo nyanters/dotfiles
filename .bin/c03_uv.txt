@@ -1,4 +1,5 @@
 docopt-ng
+opencv-python
 pillow
 pycairo
 pyxel
