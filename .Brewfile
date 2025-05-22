@@ -1,4 +1,3 @@
-tap "blacktop/tap"
 tap "gcenx/wine"
 tap "grishka/grishka"
 tap "hyperjeff/tools"
@@ -88,7 +87,6 @@ brew "wget"
 brew "winetricks"
 brew "xpdf"
 brew "zsh"
-brew "blacktop/tap/lporg"
 cask "adguard"
 cask "adobe-acrobat-pro"
 cask "adobe-creative-cloud"
@@ -98,13 +96,13 @@ cask "alt-tab"
 cask "android-platform-tools"
 cask "appcleaner"
 cask "audacity"
+cask "avifquicklook"
 cask "bartender"
 cask "betterdisplay"
 cask "bettertouchtool"
 cask "blender"
 cask "coconutbattery"
 cask "cryptomator"
-cask "dolphin"
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -179,9 +177,9 @@ cask "neardrop"
 cask "openmtp"
 cask "parallels@19"
 cask "rancher"
-cask "snes9x"
 cask "syntax-highlight"
 cask "tailscale"
+cask "utm"
 cask "vlc"
 cask "wine@devel"
 cask "xquartz"
@@ -189,7 +187,9 @@ mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
 mas "AutoMute", id: 1118136179
 mas "Bitwarden", id: 1352778147
+mas "BlueHarvest", id: 739483376
 mas "BrightIntosh", id: 6452471855
+mas "CurHereX", id: 1487274212
 mas "DaisyDisk", id: 411643860
 mas "EdgeView", id: 1580323719
 mas "GrandPerspective", id: 1111570163

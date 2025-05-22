@@ -13,7 +13,9 @@ alias mpvas='mpv --fs --hwdec=auto-safe --loop-playlist=inf --no-audio-display -
 alias mpvv='mpv --fs --hwdec=auto-safe --loop-playlist=inf --profile=fast'
 alias mpvvs='mpv --fs --hwdec=auto-safe --loop-playlist=inf --profile=fast --shuffle'
 if [[ "$(uname)" == "Darwin" ]]; then
-  alias bbdfg='brew bundle dump -f --global'
+  alias bbd='brew bundle dump -f --global'
   alias bucg='brew upgrade --cask -g'
-  alias lporgd='lporg default -n -y'
+  alias bupd='brew update'
+  alias bupg='brew upgrade'
+#   alias lporgd='lporg default -n -y'
 fi
