@@ -1,5 +1,6 @@
 tap "gcenx/wine"
 tap "grishka/grishka"
+tap "gromgit/fuse"
 tap "hyperjeff/tools"
 tap "koekeishiya/formulae"
 tap "minacle/chntpw"
@@ -87,6 +88,7 @@ brew "wget"
 brew "winetricks"
 brew "xpdf"
 brew "zsh"
+brew "gromgit/fuse/ntfs-3g-mac"
 cask "adguard"
 cask "adobe-acrobat-pro"
 cask "adobe-creative-cloud"
@@ -103,6 +105,7 @@ cask "bettertouchtool"
 cask "blender"
 cask "coconutbattery"
 cask "cryptomator"
+cask "crystalfetch"
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -166,11 +169,14 @@ cask "font-zen-maru-gothic"
 cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
+cask "foobar2000"
+cask "fuse-t"
 cask "google-chrome"
 cask "gstreamer-development"
 cask "gstreamer-runtime"
 cask "hhkb"
 cask "karabiner-elements"
+cask "macfuse@dev"
 cask "mactex-no-gui"
 cask "mono-mdk"
 cask "neardrop"
@@ -187,7 +193,6 @@ mas "Amphetamine", id: 937984704
 mas "Apple Configurator", id: 1037126344
 mas "AutoMute", id: 1118136179
 mas "Bitwarden", id: 1352778147
-mas "BlueHarvest", id: 739483376
 mas "BrightIntosh", id: 6452471855
 mas "CurHereX", id: 1487274212
 mas "DaisyDisk", id: 411643860

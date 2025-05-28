@@ -9,7 +9,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
   source m02_defaults.sh
   source m03_finder.sh
   source m04_brew.sh
-  source m05_lporg.sh
 fi
-# source c03_uv.sh
+source c03_uv.sh
 exit 0

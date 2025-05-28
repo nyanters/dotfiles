@@ -18,7 +18,7 @@ function uv_pip () {
   cd
   uv venv
   source ~/.venv/bin/activate
-  cd $(cd "$(dirname "$0")"; pwd)
+  cd "$(cd "$(dirname "$0")"; pwd)"
   uv pip install -r c03_uv.txt
 }
 case ${1:-} in (-h | --help)
