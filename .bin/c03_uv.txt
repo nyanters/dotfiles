@@ -7,3 +7,4 @@ six
 svglib
 svgutils
 toml
+yt-dlp
