@@ -94,18 +94,12 @@ cask "adobe-acrobat-pro"
 cask "adobe-creative-cloud"
 cask "alacritty"
 cask "alfred"
-cask "alt-tab"
-cask "android-platform-tools"
 cask "appcleaner"
-cask "audacity"
 cask "avifquicklook"
 cask "bartender"
 cask "betterdisplay"
 cask "bettertouchtool"
-cask "blender"
-cask "coconutbattery"
 cask "cryptomator"
-cask "crystalfetch"
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -169,41 +163,28 @@ cask "font-zen-maru-gothic"
 cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
-cask "foobar2000"
 cask "google-chrome"
 cask "gstreamer-development"
 cask "gstreamer-runtime"
-cask "hhkb"
 cask "karabiner-elements"
 cask "macfuse@dev"
 cask "mactex-no-gui"
 cask "mono-mdk"
-cask "neardrop"
-cask "openmtp"
 cask "parallels@19"
-cask "rancher"
 cask "syntax-highlight"
-cask "tailscale"
-cask "utm"
 cask "vlc"
 cask "wine@devel"
 cask "xquartz"
 mas "Amphetamine", id: 937984704
-mas "Apple Configurator", id: 1037126344
 mas "AutoMute", id: 1118136179
 mas "Bitwarden", id: 1352778147
 mas "BrightIntosh", id: 6452471855
-mas "CurHereX", id: 1487274212
 mas "DaisyDisk", id: 411643860
 mas "EdgeView", id: 1580323719
-mas "GrandPerspective", id: 1111570163
-mas "Jump Desktop", id: 524141863
 mas "LINE", id: 539883307
 mas "Mountain Duck", id: 1024974133
 mas "Mp3tag", id: 1532597159
-mas "MusicDeviceHost", id: 1261046263
 mas "Name Mangler 3", id: 603637384
 mas "Pure Paste", id: 1611378436
 mas "Spark", id: 1176895641
 mas "Yoink", id: 457622435
-mas "紀伊國屋書店Kinoppy", id: 572547904

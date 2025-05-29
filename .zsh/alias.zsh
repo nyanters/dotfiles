@@ -17,5 +17,5 @@ if [[ "$(uname)" == "Darwin" ]]; then
   alias bucg='brew upgrade --cask -g'
   alias bupd='brew update'
   alias bupg='brew upgrade'
-#   alias lporgd='lporg default -n -y'
+  alias cdock='find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock'
 fi
