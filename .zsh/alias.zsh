@@ -12,6 +12,7 @@ alias mpva='mpv --fs --hwdec=auto-safe --loop-playlist=inf --no-audio-display --
 alias mpvas='mpv --fs --hwdec=auto-safe --loop-playlist=inf --no-audio-display --no-video --profile=fast --shuffle'
 alias mpvv='mpv --fs --hwdec=auto-safe --loop-playlist=inf --profile=fast'
 alias mpvvs='mpv --fs --hwdec=auto-safe --loop-playlist=inf --profile=fast --shuffle'
+alias ls='eza --icons --group-directories-first'
 if [[ "$(uname)" == "Darwin" ]]; then
   alias bbd='brew bundle dump -f --global'
   alias bucg='brew upgrade --cask -g'
