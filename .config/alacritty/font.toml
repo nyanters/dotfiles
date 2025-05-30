@@ -1,0 +1,4 @@
+[font]
+normal = { family = "M+1Code Nerd Font", style = "Regular" }
+bold = {style = "Bold" }
+size = 12

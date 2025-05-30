@@ -1,11 +1,12 @@
 #!usr/bin/env bash
 set -euxo pipefail
 SCR_DIR=$(cd "$(dirname "$0")"; pwd)
+ZP=${HOME}/.zprofile
 cd "${SCR_DIR}"
 # Install brew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-if [ "$(uname -m)" = "arm64" ] ; then
-  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/${USER}/.zprofile
+if [[ "$(uname -m)" = "arm64" && ! -e ${ZP} ]] ; then
+  (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ${ZP}
 eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
 

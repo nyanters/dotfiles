@@ -11,4 +11,5 @@ if [[ "$(uname)" == "Darwin" ]]; then
   source m04_brew.sh
 fi
 source c03_uv.sh
+source c04_clamav.sh
 exit 0

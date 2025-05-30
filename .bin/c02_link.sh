@@ -64,12 +64,9 @@ function main_func () {
   mkdir_w_mes "${bak_dir}"
   check_homedir ${dotdir} $HOME ${bak_dir}
   mkdir_w_mes "$HOME/.config"
-  mkdir_w_mes "$HOME/.zsh"
   link2homedir
   check_homedir ${dotdir}.config $HOME/.config "${bak_dir}/.config"
-  check_homedir ${dotdir}.zsh $HOME/.zsh "${bak_dir}/.zsh"
   2homedir .config
-  2homedir .zsh
   git config --global include.path "~/.gitconfig_shared"
   command echo -e "Install completed!!!!"
 }

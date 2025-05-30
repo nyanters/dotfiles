@@ -30,5 +30,4 @@ function main () {
   return 0
 }
 main "$@"
-exit 0
 

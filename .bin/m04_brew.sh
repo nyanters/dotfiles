@@ -20,10 +20,10 @@ function login_check {
 }
 
 if login_check "Did you login?"; then
-  brew tap homebrew/cask --force
-  brew tap homebrew/core --force
+#   brew tap homebrew/cask --force
+#   brew tap homebrew/core --force
   brew bundle --global
-  brew untap homebrew/cask --force
-  brew untap homebrew/core --force
+#   brew untap homebrew/cask --force
+#   brew untap homebrew/core --force
 fi
 return 0

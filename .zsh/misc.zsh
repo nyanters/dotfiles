@@ -12,7 +12,7 @@ if [[ "$(uname)" == "Darwin" ]]; then
   export LDFLAGS="-L/usr/local/opt/zlib/lib"
   export PATH=$PATH:~/.docker/bin
   export PATH=$PATH:~/.rd/bin
-  export PATH=$PATH:$HOME/Library/Android/sdk/platform-tools
+  export PATH=$PATH:~/Library/Android/sdk/platform-tools
   export PATH="/usr/local/opt/openjdk/bin:$PATH"
   export PATH="/usr/local/sbin:$PATH"
   export PATH="/opt/homebrew/opt/bzip2/bin:$PATH"
