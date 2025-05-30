@@ -1,4 +1,7 @@
 [[plugins]]
+repo = 'junegunn/fzf.vim'
+
+[[plugins]]
 hook_add = '''
   let g:rainbow_active = 1
 '''
