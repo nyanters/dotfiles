@@ -11,15 +11,8 @@ function usage () {
   shift && [ $# -eq 0 ] || printf '%s\n' "cat<<$line" "$@" "$line"
 }
 function uv_pip () {
-  local _fn="$(basename "$(test -L "$0" && readlink "$0" || echo "$0")" .sh)"
-  if [[ "$(uname)" == "Linux" ]] ; then
-    curl -LsSf https://astral.sh/uv/install.sh | sh
-  fi
-  cd
-  uv venv
-  source ~/.venv/bin/activate
-  cd "$(cd "$(dirname "$0")"; pwd)"
-  uv pip install -r c03_uv.txt
+  cd "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+  uv pip install -r "$(basename "${BASH_SOURCE[0]}" .sh)".txt
 }
 case ${1:-} in (-h | --help)
   eval "$(usage "USAGE" < "$0")"

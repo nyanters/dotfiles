@@ -10,6 +10,9 @@ if [[ "$(uname)" == "Darwin" ]]; then
   source m03_finder.sh
   source m04_brew.sh
 fi
-source c03_uv.sh
-source c04_clamav.sh
+source c04_uv_pre.sh
+source ~/.venv/bin/activate
+cd "${SCR_DIR}"
+source c05_uv_post.sh
+source c06_clamav.sh
 exit 0

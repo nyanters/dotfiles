@@ -23,7 +23,7 @@ else
 fi
 sudo mkdir -p /usr/local/var/run/clamav
 freshclam -v
-if ps ax | grep -v grep | grep clamd &> /dev/null; then
+if ps ax | grep [c]lamd &> /dev/null; then
   echo "clamd running"
 else
   clamd

@@ -24,7 +24,7 @@ defaults write com.apple.dock launchanim -bool true
 defaults write com.apple.dock springboard-columns -int 8
 defaults write com.apple.dock springboard-rows -int 6
 # find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +
-defaults write com.apple.dock persistent-others -array-add '{ "tile-data" = { "list-type" = 1; }; "tile-type" = "recents-tile"; }'; killall Dock
+defaults write com.apple.dock persistent-others -array-add '{ "tile-data" = { "list-type" = 1; }; "tile-type" = "recents-tile"; }'
 # ====================
 #
 # SystemUIServer
@@ -114,4 +114,3 @@ defaults write org.macosforge.xquartz.X11 enable_iglx -bool true
 # Enable aptX
 defaults write bluetoothaudiod "Enable AptX codec" -bool true
 return 0
-
