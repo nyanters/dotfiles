@@ -15,7 +15,7 @@ function uv_pip () {
   if [[ "$(uname)" == "Linux" ]] ; then
     curl -LsSf https://astral.sh/uv/install.sh | sh
     source $HOME/.local/bin/env
-    source $HOME/.local/bin/env.fish
+#     source $HOME/.local/bin/env.fish
   fi
   cd
   uv venv
