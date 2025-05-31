@@ -17,7 +17,7 @@ fi
 if [[ "$(uname)" == "Linux" && -e /etc/debian_version || -e /etc/debian_release ]]; then
   source d01_apt.sh
 fi
-if [[ "$(uname)" == "Linux" && $(grep "^ID=" /etc/os-release | awk -F= '{print $2}') == "alpine"]]; then
+if [[ "$(uname)" == "Linux" && $(grep "^ID=" /etc/os-release | awk -F= '{print $2}') == "alpine" ]]; then
   source a01_apk.sh
 fi
 cd "${SCR_DIR}"
