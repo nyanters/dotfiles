@@ -30,7 +30,7 @@ function helpmsg () {
   command echo ""
 }
 function mkdir_w_mes () {
-  if [ ! -d "$1" ];then
+  if [[ ! -d "$1" ]]; then
     command echo "$1 not found. Auto Make it"
     command mkdir "$1"
   fi
@@ -38,7 +38,7 @@ function mkdir_w_mes () {
 function link2homedir () {
   command echo "backup old dotfiles..."
   for f in $dotdir/.??*; do
-    for line in `cat "${script_dir}/$(basename ${BASH_SOURCE[0]} .sh).txt"`; do
+    for line in $(cat "${script_dir}/$(basename ${BASH_SOURCE[0]} .sh).txt"); do
       if [[ "$f" == "${dotdir}/${line}" ]]; then
         continue 2
       fi
@@ -46,6 +46,19 @@ function link2homedir () {
     command ln -snf $f $HOME
   done
 }
+function pla_dep () {
+  for linklist in "$(basename ${BASH_SOURCE[0]} .sh).tsv" "$(basename ${BASH_SOURCE[0]} .sh)_$(uname).tsv"; do
+    [ ! -r "${linklist}" ] && continue
+    sed -e 's/\s*#.*//' -e '/^\s*$/d' "${linklist}" | while read target_raw lnk_raw; do
+      target="$(eval echo "${PWD}/${target_raw}")"
+      lnk="$(eval echo "${lnk_raw}")"
+      mkdir -p "$(dirname ${lnk})"
+      ln -fsn "${target}" "${lnk}"
+    done
+  done
+  return 0
+}
+
 while [ $# -gt 0 ];do
   case ${1} in
     --debug|-d)
@@ -60,7 +73,8 @@ while [ $# -gt 0 ];do
   esac
   shift
 done
-function main_func () {
+
+function main () {
   mkdir_w_mes "${bak_dir}"
   check_homedir ${dotdir} $HOME ${bak_dir}
   mkdir_w_mes "$HOME/.config"
@@ -69,8 +83,5 @@ function main_func () {
   2homedir .config
   git config --global include.path "~/.gitconfig_shared"
   command echo -e "Install completed!!!!"
-}
-function main () {
-  main_func
 }
 main "$@"
