@@ -24,6 +24,8 @@ cd "${SCR_DIR}"
 source c04_uv_pre.sh
 source ~/.venv/bin/activate
 cd "${SCR_DIR}"
-source c05_uv_post.sh
-source c06_clamav.sh
+if [[ "$(uname)" == "Darwin" ]]; then
+  source c05_uv_post.sh
+  source c06_clamav.sh
+fi
 exit 0
