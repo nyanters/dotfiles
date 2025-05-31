@@ -12,7 +12,9 @@ function usage () {
 }
 function uv_pip () {
   cd "$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
-  uv pip install -r "$(basename "${BASH_SOURCE[0]}" .sh)".txt
+  if [[ "$(uname)" == "Darwin" ]]; then
+    uv pip install -r "$(basename "${BASH_SOURCE[0]}" .sh)".txt
+  fi
 }
 case ${1:-} in (-h | --help)
   eval "$(usage "USAGE" < "$0")"
