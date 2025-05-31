@@ -28,9 +28,11 @@ if [[ ! -e "${ULVRC}" ]]; then
   sudo mkdir -p ${ULVRC}
 fi
 freshclam -v
-if ps ax | grep [c]lamd &> /dev/null; then
-  echo "clamd running"
-else
-  clamd
+if [[ "$(uname)" == "Darwin" ]]; then
+  if ps ax | grep [c]lamd &> /dev/null; then
+    echo "clamd running"
+  else
+    clamd
+  fi
 fi
 return 0
