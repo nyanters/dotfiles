@@ -5,7 +5,7 @@ case "$(uname)" in
   "Darwin")
     readonly CLAMAV_DIR="/opt/homebrew/etc/clamav";;
   "Linux")
-    readonly CLAMAV_DIR="/usr/bin/etc/clamav";;
+    readonly CLAMAV_DIR="/etc/clamav";;
   *)
     echo "Neither macOS or Linux!"
     exit 1
