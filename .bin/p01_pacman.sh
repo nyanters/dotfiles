@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
-pacman -S --needed < "$(basename ${BASH_SOURCE[0]} .sh).txt"
+cat "$(basename ${BASH_SOURCE[0]} .sh).txt" | xargs Pacman -S --needed
 return 0
