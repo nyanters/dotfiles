@@ -12,7 +12,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
 fi
 if [[ "$(uname)" == "Linux" && -e /etc/arch-release ]]; then
   source p01_pacman.sh
-  source p02_yay.sh
 fi
 if [[ "$(uname)" == "Linux" && -e /etc/debian_version || -e /etc/debian_release ]]; then
   source d01_apt.sh
