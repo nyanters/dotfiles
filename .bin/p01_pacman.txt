@@ -1,0 +1,6 @@
+binutils
+curl
+fakeroot
+gcc
+git
+make
