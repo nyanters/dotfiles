@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-set -eoux pipefail
+set -eou pipefail
 SCR_DIR=$(cd "$(dirname "$0")"; pwd)
 cd "${SCR_DIR}"
 # source c01_os.sh
@@ -25,6 +25,6 @@ source ~/.venv/bin/activate
 cd "${SCR_DIR}"
 if [[ "$(uname)" == "Darwin" ]]; then
   source c05_uv_post.sh
-  source c06_clamav.sh
 fi
+source c06_clamav.sh
 exit 0

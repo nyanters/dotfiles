@@ -1,4 +1,5 @@
 binutils
+clamav
 curl
 fakeroot
 gcc
