@@ -1,2 +1,3 @@
 clamav
 curl
+git

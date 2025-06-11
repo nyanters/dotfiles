@@ -1,3 +1,4 @@
 clamav
 clamav-daemon
 curl
+git

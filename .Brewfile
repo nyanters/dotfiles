@@ -1,7 +1,6 @@
 tap "gcenx/wine"
 tap "grishka/grishka"
 tap "gromgit/fuse"
-tap "homebrew/core"
 tap "hyperjeff/tools"
 tap "knazarov/qemu-virgl"
 tap "koekeishiya/formulae"
@@ -112,6 +111,7 @@ cask "adobe-acrobat-pro"
 cask "adobe-creative-cloud"
 cask "alacritty"
 cask "alfred"
+cask "alt-tab"
 cask "appcleaner"
 cask "avifquicklook"
 cask "bartender"
@@ -191,19 +191,20 @@ cask "mactex-no-gui"
 cask "mono-mdk"
 cask "parallels@19"
 cask "syntax-highlight"
+cask "utm"
 cask "vlc"
 cask "wine@devel"
 cask "xquartz"
 mas "Amphetamine", id: 937984704
 mas "AutoMute", id: 1118136179
 mas "Bitwarden", id: 1352778147
-mas "BrightIntosh", id: 6452471855
 mas "DaisyDisk", id: 411643860
 mas "EdgeView", id: 1580323719
 mas "Jump Desktop", id: 524141863
 mas "LINE", id: 539883307
 mas "Mountain Duck", id: 1024974133
 mas "Mp3tag", id: 1532597159
+mas "MusicDeviceHost", id: 1261046263
 mas "Name Mangler 3", id: 603637384
 mas "Pure Paste", id: 1611378436
 mas "Spark", id: 1176895641
