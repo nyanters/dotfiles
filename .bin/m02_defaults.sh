@@ -80,17 +80,6 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 #
 # ====================
 
-defaults write com.apple.safari AutoOpenSafeDownloads -int 0
-defaults write com.apple.Safari AutoFillPasswords -bool false
-defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
-defaults write com.apple.Safari IncludeDevelopMenu -bool true
-defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
-defaults write com.apple.safari OpenPrivateWindowWhenNotRestoringSessionAtLaunch -int 1
-defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
-defaults write com.apple.Safari ShowStatusBar -bool true
-defaults write com.apple.Safari SuppressSearchSuggestions -bool true
-defaults write com.apple.Safari UniversalSearchEnabled -bool false
-defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
 defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # ====================
