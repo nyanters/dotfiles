@@ -16,7 +16,9 @@ alias mpvvs='mpv --fs --hwdec=auto-safe --loop-playlist=inf --profile=fast --shu
 alias ls='eza --icons --group-directories-first'
 alias qsnapl='qemu-img snapshot -l'
 alias vvim='vim -u NONE -N'
+alias zrc='source ~/.zshrc'
 if [[ "$(uname)" == "Darwin" ]]; then
+  alias bbc='brew bundle cleanup -f --global'
   alias bbd='brew bundle dump -f --global'
   alias brew86='/usr/local/bin/brew'
   alias bucg='brew upgrade --cask -g'

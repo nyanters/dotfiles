@@ -21,8 +21,10 @@ defaults write NSGlobalDomain NSAutomaticCapitalizationEnabled -bool false
 # If you want to disable animation at application launch, uncomment this
 # defaults write com.apple.dock launchanim -bool false
 defaults write com.apple.dock launchanim -bool true
+defaults write com.apple.dock persistent-apps -array
 defaults write com.apple.dock springboard-columns -int 8
 defaults write com.apple.dock springboard-rows -int 6
+defaults write com.apple.dock tilesize -int 16
 # find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +
 defaults write com.apple.dock persistent-others -array-add '{ "tile-data" = { "list-type" = 1; }; "tile-type" = "recents-tile"; }'
 # ====================
@@ -61,6 +63,7 @@ defaults write -g KeyRepeat -int 1
 defaults write -g InitialKeyRepeat -int 25
 # Use function keys as standard function keys
 defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
+defaults write com.apple.inputmethod.Kotoeri JIMPrefFullWidthNumeralCharactersKey -int 0
 
 # ====================
 #
@@ -77,8 +80,18 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 #
 # ====================
 
-# defaults write com.apple.safari "AutoOpenSafeDownloads" -int 0
-# defaults write com.apple.safari "OpenPrivateWindowWhenNotRestoringSessionAtLaunch" -int 1
+defaults write com.apple.safari AutoOpenSafeDownloads -int 0
+defaults write com.apple.Safari AutoFillPasswords -bool false
+defaults write com.apple.Safari com.apple.Safari.ContentPageGroupIdentifier.WebKit2DeveloperExtrasEnabled -bool true
+defaults write com.apple.Safari IncludeDevelopMenu -bool true
+defaults write com.apple.Safari IncludeInternalDebugMenu -bool true
+defaults write com.apple.safari OpenPrivateWindowWhenNotRestoringSessionAtLaunch -int 1
+defaults write com.apple.Safari ShowFullURLInSmartSearchField -bool true
+defaults write com.apple.Safari ShowStatusBar -bool true
+defaults write com.apple.Safari SuppressSearchSuggestions -bool true
+defaults write com.apple.Safari UniversalSearchEnabled -bool false
+defaults write com.apple.Safari WebKitDeveloperExtrasEnabledPreferenceKey -bool true
+defaults write NSGlobalDomain WebKitDeveloperExtras -bool true
 
 # ====================
 #
