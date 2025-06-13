@@ -1,5 +1,6 @@
 brew "bat"
 brew "fzf"
+brew "mas"
 brew "mpv"
 brew "sheldon"
 brew "starship"
@@ -7,6 +8,7 @@ brew "tmux"
 brew "uv"
 cask "adguard"
 cask "alacritty", args: { appdir: "~/Applications" }
+cask "cryptomator"
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -70,3 +72,17 @@ cask "font-zen-maru-gothic"
 cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
+mas "Amphetamine", id: 937984704
+mas "AutoMute", id: 1118136179
+mas "Bitwarden", id: 1352778147
+mas "DaisyDisk", id: 411643860
+mas "EdgeView", id: 1580323719
+mas "Jump Desktop", id: 524141863
+mas "LINE", id: 539883307
+mas "Mountain Duck", id: 1024974133
+mas "Mp3tag", id: 1532597159
+mas "MusicDeviceHost", id: 1261046263
+mas "Name Mangler 3", id: 603637384
+mas "Pure Paste", id: 1611378436
+mas "Spark", id: 1176895641
+mas "Yoink", id: 457622435
