@@ -1,19 +1,43 @@
+brew "bash"
 brew "bat"
+brew "bchunk"
+brew "btop"
+brew "cdrdao"
 brew "clamav"
 brew "cmake"
+brew "cuetools"
+brew "dos2unix"
+brew "eza"
+brew "fastfetch"
 brew "fzf"
 brew "gh"
+brew "git"
+brew "markdown-toc"
 brew "mas"
+brew "python@3.13"
 brew "mpv"
+brew "p7zip"
 brew "pkgconf"
 brew "py3cairo"
 brew "sheldon"
+brew "shntool"
 brew "starship"
+brew "tag"
 brew "tmux"
 brew "uv"
+brew "vim"
+brew "wget"
+brew "zsh"
 cask "adguard"
+cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
+cask "adobe-creative-cloud"
 cask "alacritty", args: { appdir: "~/Applications" }
-cask "cryptomator"
+cask "alfred", args: { appdir: "~/Applications" }
+cask "alt-tab", args: { appdir: "~/Applications" }
+cask "appcleaner", args: { appdir: "~/Applications" }
+cask "bartender", args: { appdir: "~/Applications" }
+cask "bettertouchtool", args: { appdir: "~/Applications" }
+cask "cryptomator", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -77,16 +101,19 @@ cask "font-zen-maru-gothic"
 cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
+cask "google-chrome", args: { appdir: "~/Applications" }
+cask "karabiner-elements", args: { appdir: "~/Applications" }
+cask "syntax-highlight", args: { appdir: "~/Applications" }
+cask "utm", args: { appdir: "~/Applications" }
+cask "vlc", args: { appdir: "~/Applications" }
 mas "Amphetamine", id: 937984704
 mas "AutoMute", id: 1118136179
 mas "Bitwarden", id: 1352778147
 mas "DaisyDisk", id: 411643860
 mas "EdgeView", id: 1580323719
-mas "Jump Desktop", id: 524141863
 mas "LINE", id: 539883307
 mas "Mountain Duck", id: 1024974133
 mas "Mp3tag", id: 1532597159
-mas "MusicDeviceHost", id: 1261046263
 mas "Name Mangler 3", id: 603637384
 mas "Pure Paste", id: 1611378436
 mas "Spark", id: 1176895641
