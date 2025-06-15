@@ -9,6 +9,9 @@ function login_check {
       [Yy]*)
         return 0
         ;;
+      [Nn]*)
+        return 1
+        ;;
       *)
         open_app_store
         ;;

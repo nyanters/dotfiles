@@ -2,7 +2,6 @@
 set -euo pipefail
 readonly bak_dir="$HOME/.dotbackup"
 readonly script_dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd -P)"
-readonly dotdir=$(dirname ${script_dir})
 function 2homedir () {
   for f in ${dotdir}/${1}/**; do
     ln -snf ${f} $HOME/${1}/$(basename ${f})

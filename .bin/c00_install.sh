@@ -5,6 +5,7 @@ cd "${SCR_DIR}"
 source x00_var.sh
 # source c01_os.sh
 source c02_link.sh
+source ~/.zshrc
 if [[ "$(uname)" == "Darwin" ]]; then
   source m01_init.sh
   source m02_defaults.sh
