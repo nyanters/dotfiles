@@ -1,8 +1,5 @@
 #!usr/bin/env bash
 set -euxo pipefail
-SCR_DIR=$(cd "$(dirname "$0")"; pwd)
-cd "${SCR_DIR}"
-
 function login_check {
   sleep 1; echo "Open the App Store." && open -a App\ Store
   while true; do
@@ -20,10 +17,9 @@ function login_check {
 }
 
 if login_check "Did you login?"; then
-#   brew tap homebrew/cask --force
-#   brew tap homebrew/core --force
+  cat ~/.Brewfile_* >> ~/.Brewfile
   brew bundle --global
-#   brew untap homebrew/cask --force
-#   brew untap homebrew/core --force
+else
+  brew bundle --file ~/.Brewfile_basic
 fi
 return 0
