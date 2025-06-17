@@ -20,8 +20,14 @@ function login_check {
 }
 
 if login_check "Did you login?"; then
+  if [[ -f ~/.Brewfile ]]; then
+    rm ~/.Brewfile
+  elif [[ -L ~/.Brewfile ]]; then
+    unlink -- ~/.Brewfile
+  fi
   cat ~/.Brewfile_* >> ~/.Brewfile
   brew bundle --global
+  rm ~/.Brewfile
 else
   brew bundle --file ~/.Brewfile_basic
 fi
