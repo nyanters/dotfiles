@@ -8,6 +8,7 @@ source c02_link.sh
 source ~/.zshrc
 if [[ "$(uname)" == "Darwin" ]]; then
   source m01_init.sh
+  source ~/.zshrc
   source m02_defaults.sh
   source m03_finder.sh
   source m04_brew.sh
@@ -29,4 +30,5 @@ if [[ "$(uname)" == "Darwin" ]]; then
   source c05_uv_post.sh
 fi
 source c06_clamav.sh
+source ~/.zshrc
 exit 0

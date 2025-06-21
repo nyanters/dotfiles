@@ -7,15 +7,20 @@ brew "clamav"
 brew "cmake"
 brew "cuetools"
 brew "dos2unix"
+brew "dosbox-x"
 brew "eza"
 brew "fastfetch"
 brew "fzf"
 brew "gh"
 brew "git"
+brew "less"
+brew "libavif"
+brew "mame"
 brew "markdown-toc"
 brew "mas"
 brew "python@3.13"
 brew "mpv"
+brew "openjdk"
 brew "p7zip"
 brew "pkgconf"
 brew "py3cairo"
@@ -28,7 +33,7 @@ brew "uv"
 brew "vim"
 brew "wget"
 brew "zsh"
-cask "adguard"
+cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
 cask "adobe-creative-cloud"
 cask "alacritty", args: { appdir: "~/Applications" }
@@ -39,6 +44,7 @@ cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
 cask "cog", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
+cask "dolphin", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
