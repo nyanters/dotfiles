@@ -1,6 +1,6 @@
 #!/usr/bin/env zsh
 alias 7za='7z a -mmt=on -mx=9 -sdel'
-# alias cat='bat --paging=never'
+alias cat='bat --paging=never'
 alias clamddl='clamdscan ~/Downloads --infected --remove'
 alias clamdl='clamscan ~/Downloads -r --infected --remove'
 alias d2u='dos2unix'

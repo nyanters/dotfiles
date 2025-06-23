@@ -42,7 +42,7 @@ cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "cog", args: { appdir: "~/Applications" }
+cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "dolphin", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
@@ -115,3 +115,4 @@ cask "parallels@19", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
+cask "xquartz"
