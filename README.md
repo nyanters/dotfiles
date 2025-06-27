@@ -13,7 +13,7 @@ https://freefilesync.org/download.php
 https://github.com/GrandOrgue/grandorgue/releases  
 ### IAC Driver  
 Audio MIDI Setup -> MIDI Studio -> IAC Driver  
-![IAC Driver](./img/pic_iac-driver.png "")
+![IAC Driver](./img/pic_iac-driver.png)
 ### PCSX2  
 [Releases · PCSX2/pcsx2 · GitHub](https://github.com/PCSX2/pcsx2/releases)
 https://github.com/PCSX2/pcsx2/releases  

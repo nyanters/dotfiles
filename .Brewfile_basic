@@ -112,6 +112,5 @@ cask "foobar2000", args: { appdir: "~/Applications" }
 cask "google-chrome", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
-cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
 cask "xquartz"

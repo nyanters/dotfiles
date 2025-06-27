@@ -7,9 +7,8 @@ cd "${SCR_DIR}"
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 if [[ "$(uname -m)" = "arm64" && ! -e ${ZP} ]] ; then
   (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ${ZP}
-eval "$(/opt/homebrew/bin/brew shellenv)"
 fi
-
+eval "$(/opt/homebrew/bin/brew shellenv)"
 # Install xcode
 # Check if command line tools are installed
 if ! xcode-select --print-path &> /dev/null; then

@@ -15,6 +15,9 @@ if [[ ! -f "${CLAMAV_DIR}/clamd.conf" ]]; then
   sed -i '' -e 's/^Example$/# Example/g' ${CLAMAV_DIR}/clamd.conf
   sed -i '' -e 's/^#LocalSocket \/tmp\/clamd.sock/LocalSocket \/tmp\/clamd.sock/g' ${CLAMAV_DIR}/clamd.conf
   sed -i '' -e 's/^#TCPAddr localhost/TCPAddr localhost/g' ${CLAMAV_DIR}/clamd.conf
+#   for line in $(cat "${script_dir}/$(basename ${BASH_SOURCE[0]} .sh).txt"); do
+#     sed -i '' -e '${line}' ${CLAMAV_DIR}/clamd.conf
+#   done
 else
   :
 fi
