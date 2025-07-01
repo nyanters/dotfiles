@@ -1,5 +1,5 @@
 #!usr/bin/env bash
-set -euxo pipefail
+set -euo pipefail
 function login_check {
   sleep 1; echo "Open the App Store." && open -a App\ Store
   while true; do

@@ -42,6 +42,7 @@ cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
+cask "blender", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "dolphin", args: { appdir: "~/Applications" }
@@ -78,11 +79,14 @@ cask "font-klee-one"
 cask "font-m+-nerd-font"
 cask "font-metal"
 cask "font-metal-mania"
+cask "font-mochiy-pop-one"
+cask "font-mochiy-pop-p-one"
 cask "font-noto-sans-cjk-jp"
 cask "font-noto-sans-mono-cjk-jp"
 cask "font-noto-serif-cjk-jp"
 cask "font-playball"
 cask "font-poprumcute"
+cask "font-press-start-2p"
 cask "font-princess-sofia"
 cask "font-rampart-one"
 cask "font-reggae-one"
@@ -108,9 +112,9 @@ cask "font-zen-maru-gothic"
 cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
-cask "foobar2000", args: { appdir: "~/Applications" }
 cask "google-chrome", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
+cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
 cask "xquartz"
