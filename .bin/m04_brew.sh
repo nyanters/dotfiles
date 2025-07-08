@@ -14,7 +14,7 @@ select val in ${MENU}; do
       break
       ;;
     mas | rosetta)
-      cat ~/.Brewfile_basic ~/.Brewfile_${val} >> .Brewfile
+      cat ~/.Brewfile_basic ~/.Brewfile_${val} >> ~/.Brewfile
       brew bundle --global
       rm ~/.Brewfile
       break
