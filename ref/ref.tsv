@@ -1,6 +1,7 @@
 U	T	YYYY-MM-DD
 https://askubuntu.com/questions/76808/how-do-i-use-variables-in-a-sed-command	bash - How do I use variables in a sed command? - Ask Ubuntu	2014-08-07
 https://atmarkit.itmedia.co.jp/flinux/rensai/linuxtips/a072csplit.html	テキストファイルを任意の文字列で分割するには － ＠IT	2007-12-26
+https://blog.enjoitech.com/article/71	Linux である文字を含む行を削除したい (sed,grepなど) - Enjoi Blog	2018-05-02
 https://blog.ychof.com/archives/50	.vimrcをファイル分割して可読性を上げる | ychof tech blog	2020-04-30
 https://godanism.hatenablog.com/entry/20170824/1503551476	ps ax|grep コマンドで自分自身を除く - 明滅するプログラマの思索	2017-08-24
 https://it-ojisan.tokyo/sed-d	sedで指定した行の削除をする方法(サンプルコードあり) | ITを使っていこう	2018-09-11
