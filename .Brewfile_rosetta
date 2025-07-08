@@ -1,2 +1,2 @@
 cask "crossover", args: { appdir: "~/Applications" }
-cask "wine-devel", args: { appdir: "~/Applications" }
+cask "wine@devel", args: { appdir: "~/Applications" }
