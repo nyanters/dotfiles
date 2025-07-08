@@ -45,7 +45,7 @@ cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "blender", args: { appdir: "~/Applications" }
+cask "blender"
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "dolphin", args: { appdir: "~/Applications" }
