@@ -47,6 +47,7 @@ cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
 cask "blender"
 cask "cog-app", args: { appdir: "~/Applications" }
+cask "crossover", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "dolphin", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
@@ -120,8 +121,10 @@ cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "google-chrome", args: { appdir: "~/Applications" }
+cask "gstreamer-runtime"
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
+cask "wine@devel", args: { appdir: "~/Applications" }
 cask "xquartz"

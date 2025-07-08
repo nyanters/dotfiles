@@ -4,7 +4,7 @@ csplit -f ~/temp -n 4 ~/.Brewfile /^mas/ {0}
 mv ~/temp0000 ${dotdir}/.Brewfile_basic
 mv ~/temp0001 ${dotdir}/.Brewfile_mas
 rm -f ~/.Brewfile
-for line in ~/.Brewfile_rosetta; do
-  sed '|${line}|d' ~/.Brewfile_basic
-done
+# for line in ~/.Brewfile_rosetta; do
+#   sed -i '|${line}|d' ~/.Brewfile_basic
+# done
 exit 0
