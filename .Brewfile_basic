@@ -36,13 +36,16 @@ brew "zsh"
 cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
 cask "adobe-creative-cloud"
+cask "affinity-designer", args: { appdir: "~/Applications" }
+cask "affinity-photo", args: { appdir: "~/Applications" }
+cask "affinity-publisher", args: { appdir: "~/Applications" }
 cask "alacritty", args: { appdir: "~/Applications" }
 cask "alfred", args: { appdir: "~/Applications" }
 cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "blender", args: { appdir: "~/Applications" }
+cask "blender"
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "dolphin", args: { appdir: "~/Applications" }
@@ -100,6 +103,10 @@ cask "font-skranji"
 cask "font-sniglet"
 cask "font-stick"
 cask "font-train-one"
+cask "font-ysabeau"
+cask "font-ysabeau-infant"
+cask "font-ysabeau-office"
+cask "font-ysabeau-sc"
 cask "font-yuji-boku"
 cask "font-yuji-mai"
 cask "font-yuji-syuku"
@@ -114,6 +121,7 @@ cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "google-chrome", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
+cask "milkytracker", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
