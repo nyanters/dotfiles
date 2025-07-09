@@ -1,3 +1,6 @@
+brew "cabextract"
+brew "unzip"
+brew "winetricks"
 cask "crossover", args: { appdir: "~/Applications" }
 cask "gstreamer-runtime"
 cask "parallels@19", args: { appdir: "~/Applications" }
