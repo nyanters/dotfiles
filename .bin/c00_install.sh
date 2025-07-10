@@ -8,6 +8,11 @@ source ~/.zshrc
 if [[ "$(uname)" == "Darwin" ]]; then
   source m01_init.sh
   source ~/.zshrc
+  if [[ "$(uname -m)" == "arm64" ]]; then
+    eval "$(/opt/homebrew/bin/brew shellenv)"
+  elif [[ "$(uname -m)" == "x86_64" ]]; then
+    eval "$(/usr/local/bin/brew shellenv)"
+  fi
   source m02_defaults.sh
   source m03_finder.sh
   source m04_brew.sh
