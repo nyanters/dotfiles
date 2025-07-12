@@ -33,7 +33,6 @@ brew "tmux"
 brew "uv"
 brew "vim"
 brew "wget"
-brew "winetricks"
 brew "zsh"
 cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
@@ -47,7 +46,7 @@ cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "blender"
+cask "blender", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
@@ -123,12 +122,9 @@ cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "google-chrome", args: { appdir: "~/Applications" }
-cask "gstreamer-runtime"
-cask "hhkb", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
-cask "wine@devel", args: { appdir: "~/Applications" }
 cask "xquartz"
 cask "xscreensaver"
