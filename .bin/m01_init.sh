@@ -1,5 +1,5 @@
 #!usr/bin/env bash
-set -euxo pipefail
+set -euo pipefail
 SCR_DIR=$(cd "$(dirname "$0")"; pwd)
 ZP=${HOME}/.zprofile
 cd "${SCR_DIR}"

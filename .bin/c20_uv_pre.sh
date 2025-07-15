@@ -1,5 +1,5 @@
 #!usr/bin/env bash
-set -euxo pipefail && :<<'USAGE'
+set -euo pipefail && :<<'USAGE'
 Usage: $(basename "$0") [-h | --help] [NAME]
 
 Options:

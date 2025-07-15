@@ -1,5 +1,5 @@
 #!usr/bin/env bash
-set -euxo pipefail
+set -euo pipefail
 SCR_DIR=$(cd "$(dirname "$0")"; pwd)
 cd "${SCR_DIR}"
 # If you want to disable animation, uncomment this

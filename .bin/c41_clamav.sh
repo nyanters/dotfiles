@@ -1,5 +1,5 @@
 #!usr/bin/env bash
-set -euxo pipefail
+set -euo pipefail
 readonly ULVRC="/usr/local/var/run/clamav"
 case "$(uname)" in
   "Darwin")
