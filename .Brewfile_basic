@@ -20,6 +20,7 @@ brew "markdown-toc"
 brew "mas"
 brew "python@3.13"
 brew "mpv"
+brew "nodebrew"
 brew "openjdk"
 brew "p7zip"
 brew "pkgconf"
@@ -34,7 +35,7 @@ brew "uv"
 brew "vim"
 brew "wget"
 brew "zsh"
-cask "adguard"
+cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
 cask "adobe-creative-cloud"
 cask "affinity-designer", args: { appdir: "~/Applications" }
@@ -46,7 +47,7 @@ cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "blender", args: { appdir: "~/Applications" }
+cask "blender"
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
@@ -123,6 +124,8 @@ cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
+cask "unity"
+cask "unity-hub"
 cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
 cask "xquartz"
