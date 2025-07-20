@@ -3,4 +3,5 @@ brew "unzip"
 brew "winetricks"
 cask "gstreamer-runtime"
 cask "hhkb", args: { appdir: "~/Applications" }
+cask "steam"
 cask "wine@devel", args: { appdir: "~/Applications" }
