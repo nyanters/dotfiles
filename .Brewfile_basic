@@ -13,6 +13,7 @@ brew "fastfetch"
 brew "fzf"
 brew "gh"
 brew "git"
+brew "gnupg"
 brew "less"
 brew "libavif"
 brew "mame"
@@ -51,7 +52,7 @@ cask "blender"
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
-cask "dolphin", args: { appdir: "~/Applications" }
+# cask "dolphin", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -123,6 +124,7 @@ cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "karabiner-elements", args: { appdir: "~/Applications" }
+cask "rancher", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"
