@@ -3,11 +3,14 @@ brew "bat"
 brew "bchunk"
 brew "btop"
 brew "cdrdao"
+brew "cdrtools"
 brew "clamav"
 brew "cmake"
 brew "cuetools"
 brew "dos2unix"
 brew "dosbox-x"
+brew "libdvdcss"
+brew "dvdbackup"
 brew "eza"
 brew "fastfetch"
 brew "fzf"
@@ -48,11 +51,10 @@ cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "blender"
+cask "blender", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
-# cask "dolphin", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
