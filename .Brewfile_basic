@@ -16,6 +16,7 @@ brew "fastfetch"
 brew "fzf"
 brew "gh"
 brew "git"
+brew "gnupg"
 brew "less"
 brew "libavif"
 brew "mame"
@@ -28,6 +29,7 @@ brew "openjdk"
 brew "p7zip"
 brew "pkgconf"
 brew "py3cairo"
+brew "qemu"
 brew "sheldon"
 brew "shntool"
 brew "starship"
@@ -125,10 +127,9 @@ cask "font-zen-maru-gothic"
 cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
+cask "freefilesync", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
-cask "parallels@19"
 cask "rancher", args: { appdir: "~/Applications" }
-cask "suspicious-package", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"
