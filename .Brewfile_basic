@@ -4,16 +4,20 @@ brew "bchunk"
 brew "btop"
 brew "catimg"
 brew "cdrdao"
+brew "cdrtools"
 brew "clamav"
 brew "cmake"
 brew "cuetools"
 brew "dos2unix"
 brew "dosbox-x"
+brew "libdvdcss"
+brew "dvdbackup"
 brew "eza"
 brew "fastfetch"
 brew "fzf"
 brew "gh"
 brew "git"
+brew "gnupg"
 brew "less"
 brew "libavif"
 brew "mame"
@@ -27,6 +31,7 @@ brew "p7zip"
 brew "pkgconf"
 brew "py3cairo"
 brew "ranger"
+brew "qemu"
 brew "sheldon"
 brew "shntool"
 brew "starship"
@@ -50,7 +55,7 @@ cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "blender"
+cask "blender", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
@@ -127,9 +132,7 @@ cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
-cask "parallels@19"
 cask "rancher", args: { appdir: "~/Applications" }
-cask "suspicious-package", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"
