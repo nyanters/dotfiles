@@ -3,7 +3,7 @@ set -eou pipefail
 SCR_DIR=$(cd "$(dirname "$0")"; pwd)
 cd "${SCR_DIR}"
 source x00_var.sh
-source c10_link.sh
+source c11_link.sh
 source ~/.zshrc
 if [[ "$(uname)" == "Darwin" ]]; then
   source m01_init.sh

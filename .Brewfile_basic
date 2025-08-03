@@ -30,14 +30,17 @@ brew "p7zip"
 brew "pkgconf"
 brew "py3cairo"
 brew "qemu"
+brew "ranger"
 brew "sheldon"
 brew "shntool"
 brew "starship"
 brew "tag"
 brew "timidity"
 brew "tmux"
+brew "trash"
 brew "uv"
 brew "vim"
+brew "w3m"
 brew "wget"
 brew "zsh"
 cask "adguard", args: { appdir: "~/Applications" }
@@ -46,7 +49,6 @@ cask "adobe-creative-cloud"
 cask "affinity-designer", args: { appdir: "~/Applications" }
 cask "affinity-photo", args: { appdir: "~/Applications" }
 cask "affinity-publisher", args: { appdir: "~/Applications" }
-cask "alacritty", args: { appdir: "~/Applications" }
 cask "alfred", args: { appdir: "~/Applications" }
 cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
@@ -129,6 +131,7 @@ cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
+cask "kitty", args: { appdir: "~/Applications" }
 cask "rancher", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "unity"
