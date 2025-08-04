@@ -1,2 +1,2 @@
 #!usr/bin/env bash
-export PATH="${HOME}/.rd/bin:${PATH}"
+export PATH=${HOME}/.rd/bin:${PATH}
