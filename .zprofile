@@ -8,9 +8,3 @@ if [[ -d $ZSH_DIR && -r $ZSH_DIR && -x $ZSH_DIR ]]; then
     [[ -r $file ]] && source $file
   done
 fi
-
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-eval "$(/opt/homebrew/bin/brew shellenv)"
-
-eval "$(/opt/homebrew/bin/brew shellenv)"

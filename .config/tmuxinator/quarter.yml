@@ -1,0 +1,20 @@
+enable_pane_titles: true
+name: quarter
+root: ~/
+windows:
+  - window_1:
+      layout: tiled
+      panes:
+        - ls -al
+        - ls -al
+        - ls -al
+        - ls -al
+      root: ~/
+  - window_2:
+      layout: tiled
+      panes:
+        - ls -al
+        - ls -al
+        - ls -al
+        - ls -al
+      root: ~/
