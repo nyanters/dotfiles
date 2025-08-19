@@ -3,4 +3,3 @@ brew "unzip"
 brew "winetricks"
 cask "hhkb", args: { appdir: "~/Applications" }
 cask "steam"
-cask "wine@devel", args: { appdir: "~/Applications" }
