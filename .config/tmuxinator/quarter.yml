@@ -5,16 +5,16 @@ windows:
   - window_1:
       layout: tiled
       panes:
-        - ls -al
-        - ls -al
-        - ls -al
-        - ls -al
+        - clear
+        - clear
+        - clear
+        - clear
       root: ~/
   - window_2:
       layout: tiled
       panes:
-        - ls -al
-        - ls -al
-        - ls -al
-        - ls -al
+        - clear
+        - clear
+        - clear
+        - clear
       root: ~/
