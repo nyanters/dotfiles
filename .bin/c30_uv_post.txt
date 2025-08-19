@@ -7,5 +7,4 @@ six
 svglib
 svgutils
 toml
-ueberzug
 yt-dlp
