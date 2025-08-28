@@ -18,6 +18,7 @@ brew "eza"
 brew "fastfetch"
 brew "fdupes"
 brew "felinks"
+brew "figlet"
 brew "fzf"
 brew "gh"
 brew "git"
@@ -47,8 +48,8 @@ brew "starship"
 brew "tag"
 brew "timidity"
 brew "tmux"
-brew "tmuxinator-completion"
 brew "tmuxinator"
+brew "toilet"
 brew "trash"
 brew "uv"
 brew "vim"
@@ -145,9 +146,9 @@ cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
+cask "keka", args: { appdir: "~/Applications" }
 cask "kitty", args: { appdir: "~/Applications" }
 cask "mist"
-cask "parallels@19"
 cask "rancher", args: { appdir: "~/Applications" }
 cask "suspicious-package", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
