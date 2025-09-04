@@ -10,11 +10,3 @@ windows:
         - clear
         - clear
       root: ~/
-  - window_2:
-      layout: tiled
-      panes:
-        - clear
-        - clear
-        - clear
-        - clear
-      root: ~/
