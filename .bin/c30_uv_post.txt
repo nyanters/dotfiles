@@ -1,4 +1,5 @@
 docopt-ng
+game-extraction-toolbox
 opencv-python
 pillow
 pycairo
