@@ -59,8 +59,10 @@ defaults write com.google.Chrome AppleLanguages '(en-JP)'
 #
 # ====================
 
-defaults write -g KeyRepeat -int 1
-defaults write -g InitialKeyRepeat -int 25
+# defaults write -g KeyRepeat -int 1
+# defaults write -g InitialKeyRepeat -int 25
+defaults write -g KeyRepeat -int 2
+defaults write -g InitialKeyRepeat -int 15
 # Use function keys as standard function keys
 defaults write NSGlobalDomain com.apple.keyboard.fnState -bool true
 defaults write com.apple.inputmethod.Kotoeri JIMPrefFullWidthNumeralCharactersKey -int 0
