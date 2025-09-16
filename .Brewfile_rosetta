@@ -1,6 +1,5 @@
 brew "cabextract"
 brew "unzip"
 brew "winetricks"
-cask "hhkb", args: { appdir: "~/Applications" }
 cask "parallels@19"
 cask "steam"

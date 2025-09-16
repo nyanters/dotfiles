@@ -18,11 +18,11 @@ brew "eza"
 brew "fastfetch"
 brew "fdupes"
 brew "felinks"
-brew "ffmpeg"
 brew "figlet"
 brew "fzf"
 brew "gh"
 brew "git"
+brew "gnupg"
 brew "pkgconf"
 brew "python@3.13"
 brew "py3cairo"
@@ -52,6 +52,7 @@ brew "starship"
 brew "tag"
 brew "timidity"
 brew "tmux"
+brew "tmuxinator-completion"
 brew "tmuxinator"
 brew "toilet"
 brew "tombi"
@@ -67,13 +68,14 @@ cask "adobe-creative-cloud"
 cask "affinity-designer", args: { appdir: "~/Applications" }
 cask "affinity-photo", args: { appdir: "~/Applications" }
 cask "affinity-publisher", args: { appdir: "~/Applications" }
+cask "alacritty", args: { appdir: "~/Applications" }
 cask "alfred", args: { appdir: "~/Applications" }
 cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "battery"
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "blender"
+cask "blender", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
@@ -159,7 +161,6 @@ cask "suspicious-package", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"
-cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
 cask "xquartz"
 cask "xscreensaver"
