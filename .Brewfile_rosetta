@@ -1,5 +1,1 @@
-brew "cabextract"
-brew "unzip"
-brew "winetricks"
-cask "parallels@19"
 cask "steam"

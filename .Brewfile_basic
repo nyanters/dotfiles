@@ -1,3 +1,6 @@
+tap "filosottile/musl-cross"
+tap "nohajc/anylinuxfs"
+tap "slp/krun"
 brew "atool"
 brew "bash"
 brew "bat"
@@ -39,12 +42,12 @@ brew "media-info"
 brew "mpv"
 brew "nodebrew"
 brew "openjdk"
-brew "p7zip"
 brew "pcre"
 brew "poppler"
 brew "qemu"
 brew "ranger"
 brew "rom-tools"
+brew "sevenzip"
 brew "sheldon"
 brew "shntool"
 brew "spice-gtk"
@@ -62,6 +65,7 @@ brew "vim"
 brew "w3m"
 brew "wget"
 brew "zsh"
+brew "nohajc/anylinuxfs/anylinuxfs"
 cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
 cask "adobe-creative-cloud"
@@ -152,6 +156,7 @@ cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
+cask "fuse-t"
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "keka", args: { appdir: "~/Applications" }
 cask "kitty", args: { appdir: "~/Applications" }
@@ -161,6 +166,7 @@ cask "suspicious-package", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"
+cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
 cask "xquartz"
 cask "xscreensaver"
