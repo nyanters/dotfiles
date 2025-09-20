@@ -3,6 +3,7 @@ game-extraction-toolbox
 opencv-python
 pillow
 pycairo
+pydantic-settings
 pyxel
 six
 svglib

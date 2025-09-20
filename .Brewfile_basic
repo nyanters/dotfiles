@@ -21,16 +21,17 @@ brew "eza"
 brew "fastfetch"
 brew "fdupes"
 brew "felinks"
+brew "ffmpeg"
 brew "figlet"
 brew "fzf"
 brew "gh"
 brew "git"
-brew "gnupg"
 brew "pkgconf"
 brew "python@3.13"
 brew "py3cairo"
 brew "highlight"
 brew "jhead"
+brew "lazyssh"
 brew "less"
 brew "libavif"
 brew "libcaca"
@@ -55,7 +56,6 @@ brew "starship"
 brew "tag"
 brew "timidity"
 brew "tmux"
-brew "tmuxinator-completion"
 brew "tmuxinator"
 brew "toilet"
 brew "tombi"
@@ -79,7 +79,7 @@ cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "battery"
 cask "bettertouchtool", args: { appdir: "~/Applications" }
-cask "blender", args: { appdir: "~/Applications" }
+cask "blender"
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
@@ -170,3 +170,4 @@ cask "utm", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
 cask "xquartz"
 cask "xscreensaver"
+cask "zoom"
