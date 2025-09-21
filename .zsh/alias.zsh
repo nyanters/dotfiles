@@ -24,10 +24,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
   alias bupg='brew upgrade'
   alias cdock='find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock'
 fi
-function args_path () {
-  _files -W ./
-  return 0
-}
 function cut4dl_main () {
   _i=0
   cd ~/Downloads
@@ -42,4 +38,3 @@ function cut4dl_main () {
   rm -f req.txt
   return 0
 }
-compdef cut4dl_main args_path
