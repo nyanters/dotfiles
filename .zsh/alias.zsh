@@ -3,7 +3,7 @@ alias 7za='7zz a -mmt=on -mx=9 -sdel'
 alias cat='bat --paging=never'
 alias clamddl='clamdscan ~/Downloads -i -m --remove'
 alias clamdl='clamscan ~/Downloads -r --infected --remove'
-alias cut4dl='_cut4dl'
+alias cut4dl='cut4dl_main'
 alias d2u='dos2unix'
 alias gaa='git add -A'
 alias gcm='git commit -m'
@@ -24,10 +24,14 @@ if [[ "$(uname)" == "Darwin" ]]; then
   alias bupg='brew upgrade'
   alias cdock='find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock'
 fi
-function _cut4dl () {
+function args_path () {
+  _files -W ./
+  return 0
+}
+function cut4dl_main () {
   _i=0
   cd ~/Downloads
-  cut -d ',' -f 2 "$1" | sed -e '1,2d' > req.txt
+  cut -d ',' -f 2 "${1}" | sed -e '1,2d' > req.txt
   while read LINE; do
     _origname=$(basename ${LINE})
     _ext=${_origname##*.}
@@ -38,3 +42,4 @@ function _cut4dl () {
   rm -f req.txt
   return 0
 }
+compdef cut4dl_main args_path
