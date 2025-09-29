@@ -44,3 +44,7 @@ function cut4dl_main () {
   rm -f req.txt
   return 0
 }
+function mpvh_main () {
+  echo ${1}
+  return 0
+}
