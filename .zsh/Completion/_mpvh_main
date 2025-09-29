@@ -1,0 +1,7 @@
+#compdef mpvh
+
+function _mpvh_main {
+  _files -W ./
+}
+
+compdef mpvh_main _mpvh_main
