@@ -2,6 +2,7 @@
 alias 7za='7zz a -mmt=on -mx=9 -sdel'
 alias cat='bat --paging=never'
 alias clamddl='clamdscan ~/Downloads -i -m --remove'
+alias clamdf='clamdf_main'
 alias clamdl='clamscan ~/Downloads -r --infected --remove'
 alias cut4dl='cut4dl_main'
 alias d2u='dos2unix'
@@ -24,6 +25,11 @@ if [[ "$(uname)" == "Darwin" ]]; then
   alias bupg='brew upgrade'
   alias cdock='find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock'
 fi
+function clamdf_main () {
+  cd "$(dirname "${1}")"
+  clamdscan -i -m --remove -f "${1}"
+  return 0
+}
 function cut4dl_main () {
   _i=0
   cd ~/Downloads
