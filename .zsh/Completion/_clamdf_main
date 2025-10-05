@@ -1,0 +1,7 @@
+#compdef clamdf
+
+function _clamdf_main {
+  _files -W ./
+}
+
+compdef clamdf_main _clamdf_main
