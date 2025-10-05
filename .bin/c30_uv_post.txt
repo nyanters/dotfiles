@@ -5,6 +5,7 @@ pillow
 pycairo
 pydantic-settings
 pyxel
+rich
 six
 svglib
 svgutils

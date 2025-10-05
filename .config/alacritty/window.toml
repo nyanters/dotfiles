@@ -1,5 +1,5 @@
 [window]
 dimensions = { columns = 80, lines = 25 }
 opacity = 0.95
-startup_mode = "Windowed"
+startup_mode = "Fullscreen"
 title = "Alacritty"

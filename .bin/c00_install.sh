@@ -33,7 +33,8 @@ source ~/.venv/bin/activate
 cd "${SCR_DIR}"
 if [[ "$(uname)" == "Darwin" ]]; then
   source c30_uv_post.sh
+#   source c40_cargo.sh
 fi
-source c41_clamav.sh
+source c51_clamav.sh
 source ~/.zshrc
 exit 0

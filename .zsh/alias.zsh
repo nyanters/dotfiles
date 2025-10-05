@@ -8,13 +8,16 @@ alias d2u='dos2unix'
 alias gaa='git add -A'
 alias gcm='git commit -m'
 alias gp='git push'
+alias lsg='lsg_main'
 alias mamew='mame -window'
 alias mdt='markdown-toc --bullets "-" -i'
 alias mpva='mpv --profile=aud'
 alias mpvas='mpv --profile=aud-shuffle'
 alias mpvs='mpv --profile=shuffle'
 alias ls='eza --icons --group-directories-first'
+alias png2webp='for i in *.png; do ffmpeg -i ${i} -lossless 1 $(basename ${i} .png).webp; done'
 alias vvim='vim -u NONE -N'
+alias wav2flac='for i in *.wav; do flac -8 -f ${i}; done'
 alias zrc='source ~/.zshrc'
 if [[ "$(uname)" == "Darwin" ]]; then
   alias bbc='brew bundle cleanup -f --global'
@@ -38,7 +41,19 @@ function cut4dl_main () {
   rm -f req.txt
   return 0
 }
-function mpvh_main () {
-  echo ${1}
+function lsg_main () {
+  _gh_dir="${HOME}/GitHub"
+  _pwd=${PWD}
+  cd ${_gh_dir}
+  for i in */; do
+    cd ${i}
+    _gss=$(git status -s)
+    if [[ ${_gss} ]]; then
+      echo "${i}"
+      git status -s
+    fi
+    cd ..
+  done
+  cd ${_pwd}
   return 0
 }

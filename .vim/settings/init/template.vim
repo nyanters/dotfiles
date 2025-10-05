@@ -11,4 +11,5 @@ autocmd BufNewFile *.m3u8 :0r ~/.vim/template/t.m3u
 autocmd BufNewFile *.md :0r ~/.vim/template/t.md
 autocmd BufNewFile *.mkd :0r ~/.vim/template/t.md
 autocmd BufNewFile *.py :0r ~/.vim/template/t.py
+autocmd BufNewFile *.zsh :0r ~/.vim/template/t.zsh
 augroup END
