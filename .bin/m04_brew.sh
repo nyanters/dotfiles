@@ -1,7 +1,7 @@
 #!usr/bin/env bash
 set -euo pipefail
 MENU="minimal mas rosetta full manager"
-PS3="Choose your option (1-4):"
+PS3="Choose your option (1-5):"
 if [[ -f ~/.Brewfile ]]; then
   rm ~/.Brewfile
 elif [[ -L ~/.Brewfile ]]; then
