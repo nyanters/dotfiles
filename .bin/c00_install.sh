@@ -16,7 +16,8 @@ if [[ "$(uname)" == "Darwin" ]]; then
   source m02_defaults.sh
   source m03_finder.sh
   source m04_brew.sh
-#   source m06_npm.sh
+#   source m07_npm.sh
+  source m08_tlmgr.sh
 fi
 if [[ "$(uname)" == "Linux" ]]; then
   if [[ -e /etc/arch-release ]]; then

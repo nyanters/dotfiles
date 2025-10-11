@@ -46,6 +46,7 @@ brew "media-info"
 brew "mpv"
 brew "nodebrew"
 brew "openjdk"
+brew "pandoc"
 brew "parallel"
 brew "pcre"
 brew "poppler"
@@ -85,6 +86,7 @@ cask "alfred", args: { appdir: "~/Applications" }
 cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
+cask "basictex"
 cask "battery"
 cask "bettertouchtool", args: { appdir: "~/Applications" }
 cask "blender"
