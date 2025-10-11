@@ -47,6 +47,19 @@ function cut4dl_main () {
   rm -f req.txt
   return 0
 }
+function gpa_main () {
+  _gh_dir="${HOME}/GitHub"
+  _pwd=${PWD}
+  cd ${_gh_dir}
+  for i in */; do
+    cd ${i}
+    echo "${i}"
+    git pull
+    cd ..
+  done
+  cd ${_pwd}
+  return 0
+}
 function lsg_main () {
   _gh_dir="${HOME}/GitHub"
   _pwd=${PWD}
