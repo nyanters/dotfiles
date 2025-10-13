@@ -9,6 +9,7 @@ alias d2u='dos2unix'
 alias gaa='git add -A'
 alias gcm='git commit -m'
 alias gp='git push'
+alias gpa='gpa_main'
 alias lsg='lsg_main'
 alias mamew='mame -window'
 alias mdt='markdown-toc --bullets "-" -i'
@@ -26,7 +27,7 @@ if [[ "$(uname)" == "Darwin" ]]; then
   alias bucg='brew upgrade --cask -g'
   alias bupd='brew update'
   alias bupg='brew upgrade'
-  alias cdock='find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock'
+#   alias cdock='find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock'
 fi
 function clamdf_main () {
   cd "$(dirname "${1}")"
@@ -53,8 +54,9 @@ function gpa_main () {
   cd ${_gh_dir}
   for i in */; do
     cd ${i}
-    echo "${i}"
-    git pull
+    if [[ $(git fetch) ]]; then
+      git pull
+    fi
     cd ..
   done
   cd ${_pwd}
