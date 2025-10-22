@@ -6,13 +6,17 @@ mas "DaisyDisk", id: 411643860
 mas "EdgeView", id: 1580323719
 mas "GarageBand", id: 682658836
 mas "GrandPerspective", id: 1111570163
+mas "Jeuxdorgues", id: 557697492
 mas "Jump Desktop", id: 524141863
 mas "LINE", id: 539883307
+mas "MarcMoerd", id: 1027787952
 mas "MIDI Tape Recorder", id: 1598618004
 mas "Mountain Duck", id: 1024974133
 mas "Mp3tag", id: 1532597159
+mas "MusicDeviceHost", id: 1261046263
 mas "Name Mangler 3", id: 603637384
 mas "Pure Paste", id: 1611378436
 mas "Spark", id: 1176895641
+mas "StrandOrgan", id: 488756266
 mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435

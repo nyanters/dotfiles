@@ -14,15 +14,22 @@ select val in ${MENU}; do
       brew bundle cleanup -f --file ~/.Brewfile_basic
       break
       ;;
-    mas | rosetta)
-      cat ~/.Brewfile_basic ~/.Brewfile_${val} >> ~/.Brewfile
+    mas)
+      cat ~/.Brewfile_{basic,${val}} >> ~/.Brewfile
+      brew bundle --global
+      brew bundle cleanup -f --global
+      rm ~/.Brewfile
+      break
+      ;;
+    rosetta)
+      cat ~/.Brewfile_{basic,rosetta,wine} >> ~/.Brewfile
       brew bundle --global
       brew bundle cleanup -f --global
       rm ~/.Brewfile
       break
       ;;
     full)
-      cat ~/.Brewfile_basic ~/.Brewfile_mas ~/.Brewfile_rosetta >> ~/.Brewfile
+      cat ~/.Brewfile_{basic,mas,rosetta,wine} >> ~/.Brewfile
       brew bundle --global
       brew bundle cleanup -f --global
       rm ~/.Brewfile

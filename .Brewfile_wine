@@ -1,0 +1,7 @@
+brew "bison"
+brew "gcc"
+brew "isl"
+brew "libmpc"
+brew "mpfr"
+brew "mingw-w64"
+cask "xquartz"

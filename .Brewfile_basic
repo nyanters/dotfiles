@@ -1,5 +1,7 @@
 tap "filosottile/musl-cross"
+tap "homebrew/core"
 tap "nohajc/anylinuxfs"
+tap "nyanters/tap"
 tap "slp/krun"
 brew "atool"
 brew "bash"
@@ -7,6 +9,7 @@ brew "bash-completion@2"
 brew "bat"
 brew "bchunk"
 brew "btop"
+brew "freetype"
 brew "catimg"
 brew "cdrdao"
 brew "cdrtools"
@@ -24,6 +27,7 @@ brew "eza"
 brew "fastfetch"
 brew "fdupes"
 brew "felinks"
+brew "gnutls"
 brew "ffmpeg"
 brew "figlet"
 brew "fzf"
@@ -38,7 +42,9 @@ brew "lazyssh"
 brew "less"
 brew "libavif"
 brew "libcaca"
+brew "llvm"
 brew "lynx"
+brew "make"
 brew "mame"
 brew "markdown-toc"
 brew "mas"
@@ -54,6 +60,7 @@ brew "qemu"
 brew "ranger"
 brew "rom-tools"
 brew "rsync"
+brew "rtmidi"
 brew "rust"
 brew "rustup"
 brew "sevenzip"
@@ -70,6 +77,7 @@ brew "tombi"
 brew "trash"
 brew "uv"
 brew "vim"
+brew "vulkan-tools"
 brew "w3m"
 brew "wget"
 brew "zsh"
@@ -85,16 +93,20 @@ cask "alacritty", args: { appdir: "~/Applications" }
 cask "alfred", args: { appdir: "~/Applications" }
 cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
+cask "authme", args: { appdir: "~/Applications" }
 cask "bartender", args: { appdir: "~/Applications" }
 cask "basictex"
 cask "battery"
 cask "bettertouchtool", args: { appdir: "~/Applications" }
 cask "blender"
+cask "c700"
+cask "chatgpt", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
 cask "discord"
 cask "dolphin", args: { appdir: "~/Applications" }
+cask "duckstation", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -168,18 +180,21 @@ cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
 cask "fuse-t"
 cask "handbrake-app", args: { appdir: "~/Applications" }
+cask "kamvas-pro-13-2-5k-driver", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "keka", args: { appdir: "~/Applications" }
+cask "miditrail", args: { appdir: "~/Applications" }
 cask "mist"
 cask "rancher", args: { appdir: "~/Applications" }
 cask "raspberry-pi-imager", args: { appdir: "~/Applications" }
+cask "retroarch-metal", args: { appdir: "~/Applications" }
 cask "suspicious-package", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "twine-app", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"
 cask "utm", args: { appdir: "~/Applications" }
+cask "virtualbox", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
-cask "xquartz"
 cask "xscreensaver"
 cask "zoom"
