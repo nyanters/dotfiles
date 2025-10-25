@@ -66,6 +66,7 @@ brew "rustup"
 brew "sevenzip"
 brew "sheldon"
 brew "shntool"
+brew "smartmontools"
 brew "spice-gtk"
 brew "starship"
 brew "tag"
@@ -107,6 +108,7 @@ cask "crystalfetch", args: { appdir: "~/Applications" }
 cask "discord"
 cask "dolphin", args: { appdir: "~/Applications" }
 cask "duckstation", args: { appdir: "~/Applications" }
+cask "emusc", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
