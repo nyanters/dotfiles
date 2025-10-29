@@ -1,1 +1,3 @@
+cask "emusc", args: { appdir: "~/Applications" }
+cask "hhkb"
 cask "steam"

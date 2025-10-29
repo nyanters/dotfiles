@@ -1,5 +1,4 @@
 tap "filosottile/musl-cross"
-tap "homebrew/core"
 tap "nohajc/anylinuxfs"
 tap "nyanters/tap"
 tap "slp/krun"
@@ -34,7 +33,6 @@ brew "fzf"
 brew "gh"
 brew "git"
 brew "pkgconf"
-brew "python@3.13"
 brew "py3cairo"
 brew "highlight"
 brew "jhead"
@@ -56,12 +54,12 @@ brew "pandoc"
 brew "parallel"
 brew "pcre"
 brew "poppler"
+brew "python@3.13"
 brew "qemu"
 brew "ranger"
 brew "rom-tools"
 brew "rsync"
 brew "rtmidi"
-brew "rust"
 brew "rustup"
 brew "sevenzip"
 brew "sheldon"
@@ -90,7 +88,6 @@ cask "adobe-creative-cloud"
 cask "affinity-designer", args: { appdir: "~/Applications" }
 cask "affinity-photo", args: { appdir: "~/Applications" }
 cask "affinity-publisher", args: { appdir: "~/Applications" }
-cask "alacritty", args: { appdir: "~/Applications" }
 cask "alfred", args: { appdir: "~/Applications" }
 cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
@@ -108,7 +105,6 @@ cask "crystalfetch", args: { appdir: "~/Applications" }
 cask "discord"
 cask "dolphin", args: { appdir: "~/Applications" }
 cask "duckstation", args: { appdir: "~/Applications" }
-cask "emusc", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -185,6 +181,7 @@ cask "handbrake-app", args: { appdir: "~/Applications" }
 cask "kamvas-pro-13-2-5k-driver", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "keka", args: { appdir: "~/Applications" }
+cask "kitty", args: { appdir: "~/Applications" }
 cask "miditrail", args: { appdir: "~/Applications" }
 cask "mist"
 cask "rancher", args: { appdir: "~/Applications" }

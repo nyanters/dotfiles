@@ -1,13 +1,9 @@
 docopt-ng
 game-extraction-toolbox
-opencv-python
 pillow
-pycairo
 pydantic-settings
 pyxel
 rich
 six
-svglib
-svgutils
 toml
 yt-dlp
