@@ -9,6 +9,7 @@ brew "bat"
 brew "bchunk"
 brew "btop"
 brew "freetype"
+brew "fontconfig"
 brew "catimg"
 brew "cdrdao"
 brew "cdrtools"
@@ -102,6 +103,7 @@ cask "chatgpt", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
+cask "dexed", args: { appdir: "~/Applications" }
 cask "discord"
 cask "dolphin", args: { appdir: "~/Applications" }
 cask "duckstation", args: { appdir: "~/Applications" }
@@ -181,9 +183,8 @@ cask "handbrake-app", args: { appdir: "~/Applications" }
 cask "kamvas-pro-13-2-5k-driver", args: { appdir: "~/Applications" }
 cask "karabiner-elements", args: { appdir: "~/Applications" }
 cask "keka", args: { appdir: "~/Applications" }
-cask "kitty", args: { appdir: "~/Applications" }
 cask "miditrail", args: { appdir: "~/Applications" }
-cask "mist"
+cask "pcsx2", args: { appdir: "~/Applications" }
 cask "rancher", args: { appdir: "~/Applications" }
 cask "raspberry-pi-imager", args: { appdir: "~/Applications" }
 cask "retroarch-metal", args: { appdir: "~/Applications" }
@@ -193,7 +194,6 @@ cask "twine-app", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"
 cask "utm", args: { appdir: "~/Applications" }
-cask "virtualbox", args: { appdir: "~/Applications" }
 cask "vlc", args: { appdir: "~/Applications" }
 cask "xscreensaver"
 cask "zoom"
