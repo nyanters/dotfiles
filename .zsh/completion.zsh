@@ -1,8 +1,10 @@
 #!/usr/bin/env zsh
-COMPLETION_ROOT=~/.zsh/Completion
-fpath=( ${COMPLETION_ROOT}/* "${fpath[@]}" )
-for i in ${COMPLETION_ROOT}/*; do
-  autoload -Uz ${i}
+COMPLETION_ROOT=(~/.zsh/Completion ~/.zsh_shared/Completion)
+for i in ${COMPLETION_ROOT[@]}; do
+  fpath=( ${i}/* "${fpath[@]}" )
+  for j in ${i}/*; do
+    autoload -Uz ${j}
+  done
 done
 if type brew &>/dev/null; then
   FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
