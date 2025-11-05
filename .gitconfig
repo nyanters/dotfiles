@@ -1,8 +1,6 @@
 ; https://qiita.com/knt45/items/51b8a8645f36fb0a6d01
 [commit]
   gpgsign = true
-[gpg]
-  format = ssh
 [include]
   path = ~/.gitconfig_shared
 [filter "lfs"]
@@ -16,3 +14,5 @@
   defaultBranch = main
 [pull]
   ff = only
+[tag]
+  gpgsign = true
