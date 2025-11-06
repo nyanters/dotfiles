@@ -37,5 +37,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
 #   source c40_cargo.sh
 fi
 source c51_clamav.sh
+source c60_86box.sh
 source ~/.zshrc
 exit 0

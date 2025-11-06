@@ -56,6 +56,7 @@ brew "pandoc"
 brew "paperkey"
 brew "parallel"
 brew "pcre"
+brew "pinentry-mac"
 brew "poppler"
 brew "python@3.13"
 brew "qemu"
@@ -85,6 +86,7 @@ brew "wget"
 brew "zsh"
 brew "zsh-completions"
 brew "nohajc/anylinuxfs/anylinuxfs"
+cask "86box", args: { appdir: "~/Applications" }
 cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
 cask "adobe-creative-cloud"
