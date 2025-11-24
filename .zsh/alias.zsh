@@ -6,6 +6,7 @@ alias clamdf='clamdf_main'
 alias clamdl='clamscan ~/Downloads -r --infected --remove'
 alias cut4dl='cut4dl_main'
 alias d2u='dos2unix'
+alias flac2wav='for i in *.flac; do flac -d ${i}; done'
 alias fluidall='for i in *.mid; do fluidsynth ${i}; done'
 alias gaa='git add -A'
 alias gcsm='git commit -S -m'
@@ -30,7 +31,6 @@ if [[ "$(uname)" == "Darwin" ]]; then
   alias bucg='brew upgrade --cask -g'
   alias bupd='brew update'
   alias bupg='brew upgrade'
-#   alias cdock='find 2>/dev/null /private/var/folders/ -type d -name com.apple.dock.launchpad -exec rm -rf {} +; killall Dock'
 fi
 function clamdf_main () {
   cd "$(dirname "${1}")"

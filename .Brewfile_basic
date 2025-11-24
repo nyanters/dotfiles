@@ -71,6 +71,7 @@ brew "shntool"
 brew "smartmontools"
 brew "spice-gtk"
 brew "starship"
+brew "svg2png"
 brew "tag"
 brew "timidity"
 brew "tmux"
@@ -79,6 +80,7 @@ brew "toilet"
 brew "tombi"
 brew "trash"
 brew "uv"
+brew "vgmstream"
 brew "vim"
 brew "vulkan-tools"
 brew "w3m"
@@ -87,12 +89,11 @@ brew "zsh"
 brew "zsh-completions"
 brew "nohajc/anylinuxfs/anylinuxfs"
 cask "86box", args: { appdir: "~/Applications" }
+cask "8bitdo-ps3-pairing-tool", args: { appdir: "~/Applications" }
 cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
 cask "adobe-creative-cloud"
-cask "affinity-designer", args: { appdir: "~/Applications" }
-cask "affinity-photo", args: { appdir: "~/Applications" }
-cask "affinity-publisher", args: { appdir: "~/Applications" }
+cask "affinity", args: { appdir: "~/Applications" }
 cask "alfred", args: { appdir: "~/Applications" }
 cask "alt-tab", args: { appdir: "~/Applications" }
 cask "appcleaner", args: { appdir: "~/Applications" }
@@ -105,8 +106,8 @@ cask "blender"
 cask "c700"
 cask "chatgpt", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
+cask "crossover", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
-cask "crystalfetch", args: { appdir: "~/Applications" }
 cask "dexed", args: { appdir: "~/Applications" }
 cask "discord"
 cask "dolphin", args: { appdir: "~/Applications" }
@@ -182,17 +183,16 @@ cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
+cask "fujitsu-scansnap-home", args: { appdir: "~/Applications" }
 cask "fuse-t"
 cask "grandorgue", args: { appdir: "~/Applications" }
 cask "handbrake-app", args: { appdir: "~/Applications" }
 cask "kamvas-pro-13-2-5k-driver", args: { appdir: "~/Applications" }
-cask "karabiner-elements", args: { appdir: "~/Applications" }
-cask "keka", args: { appdir: "~/Applications" }
 cask "miditrail", args: { appdir: "~/Applications" }
 cask "pcsx2", args: { appdir: "~/Applications" }
 cask "rancher", args: { appdir: "~/Applications" }
-cask "raspberry-pi-imager", args: { appdir: "~/Applications" }
 cask "retroarch-metal", args: { appdir: "~/Applications" }
+cask "snes9x", args: { appdir: "~/Applications" }
 cask "suspicious-package", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "twine-app", args: { appdir: "~/Applications" }
