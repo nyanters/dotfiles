@@ -1,0 +1,7 @@
+#compdef lsg
+
+function _lsg_main {
+  _files -W ./
+}
+
+compdef lsg_main _lsg_main

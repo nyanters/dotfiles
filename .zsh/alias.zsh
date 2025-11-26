@@ -66,9 +66,8 @@ function gpa_main () {
   return 0
 }
 function lsg_main () {
-  _gh_dir="${HOME}/GitHub"
   _pwd=${PWD}
-  cd ${_gh_dir}
+  cd ${1}
   for i in */; do
     cd ${i}
     _gss=$(git status -s)
@@ -79,5 +78,16 @@ function lsg_main () {
     cd ..
   done
   cd ${_pwd}
+  return 0
+}
+
+function ppp_main () {
+  for i in *${1}; do
+    _txt="$(basename ${i} ${1}).txt"
+    echo "file ${i}.bak" > ${_txt}
+    mv ${i} "${i}.bak"
+    ffmpeg -f concat -i ${_txt} -safe 0 -c copy ${i}
+    rm ${_txt}
+  done
   return 0
 }
