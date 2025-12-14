@@ -13,6 +13,8 @@ brew "fontconfig"
 brew "catimg"
 brew "cdrdao"
 brew "cdrtools"
+brew "libavif"
+brew "chafa"
 brew "clamav"
 brew "cmake"
 brew "cuetools"
@@ -40,7 +42,7 @@ brew "highlight"
 brew "jhead"
 brew "lazyssh"
 brew "less"
-brew "libavif"
+brew "libaacs"
 brew "libcaca"
 brew "llvm"
 brew "lynx"
@@ -58,9 +60,7 @@ brew "parallel"
 brew "pcre"
 brew "pinentry-mac"
 brew "poppler"
-brew "python@3.13"
 brew "qemu"
-brew "ranger"
 brew "rom-tools"
 brew "rsync"
 brew "rtmidi"
@@ -84,12 +84,11 @@ brew "vgmstream"
 brew "vim"
 brew "vulkan-tools"
 brew "w3m"
+brew "wakeonlan"
 brew "wget"
 brew "zsh"
 brew "zsh-completions"
-brew "nohajc/anylinuxfs/anylinuxfs"
 cask "86box", args: { appdir: "~/Applications" }
-cask "8bitdo-ps3-pairing-tool", args: { appdir: "~/Applications" }
 cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
 cask "adobe-creative-cloud"
@@ -108,9 +107,11 @@ cask "chatgpt", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
 cask "crossover", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
+cask "crystalfetch", args: { appdir: "~/Applications" }
 cask "dexed", args: { appdir: "~/Applications" }
-cask "discord"
+cask "discord", args: { appdir: "~/Applications" }
 cask "dolphin", args: { appdir: "~/Applications" }
+cask "dropbox", args: { appdir: "~/Applications" }
 cask "duckstation", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
@@ -128,6 +129,7 @@ cask "font-bigblue-terminal-nerd-font"
 cask "font-bilbo"
 cask "font-bilbo-swash-caps"
 cask "font-blackout"
+cask "font-cherry-bomb-one"
 cask "font-chomsky"
 cask "font-codystar"
 cask "font-delius"
@@ -185,15 +187,9 @@ cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
 cask "fujitsu-scansnap-home", args: { appdir: "~/Applications" }
 cask "fuse-t"
-cask "grandorgue", args: { appdir: "~/Applications" }
+cask "google-drive"
 cask "handbrake-app", args: { appdir: "~/Applications" }
 cask "kamvas-pro-13-2-5k-driver", args: { appdir: "~/Applications" }
-cask "miditrail", args: { appdir: "~/Applications" }
-cask "pcsx2", args: { appdir: "~/Applications" }
-cask "rancher", args: { appdir: "~/Applications" }
-cask "retroarch-metal", args: { appdir: "~/Applications" }
-cask "snes9x", args: { appdir: "~/Applications" }
-cask "suspicious-package", args: { appdir: "~/Applications" }
 cask "syntax-highlight", args: { appdir: "~/Applications" }
 cask "twine-app", args: { appdir: "~/Applications" }
 cask "unity"
