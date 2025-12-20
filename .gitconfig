@@ -1,10 +1,8 @@
 ; https://qiita.com/knt45/items/51b8a8645f36fb0a6d01
 [commit]
   gpgsign = true
-[gpg]
-  format = ssh
 [include]
-  path = ~/.gitconfig_shared
+	path = ~/.gitconfig_shared
 [filter "lfs"]
   clean = git-lfs clean -- %f
   smudge = git-lfs smudge -- %f

@@ -4,10 +4,8 @@ SCR_DIR=$(cd "$(dirname "$0")"; pwd)
 cd "${SCR_DIR}"
 source x00_var.sh
 source c11_link.sh
-source ~/.zshrc
 if [[ "$(uname)" == "Darwin" ]]; then
   source m01_init.sh
-  source ~/.zshrc
   if [[ "$(uname -m)" == "arm64" ]]; then
     eval "$(/opt/homebrew/bin/brew shellenv)"
   elif [[ "$(uname -m)" == "x86_64" ]]; then
@@ -36,5 +34,4 @@ if [[ "$(uname)" == "Darwin" ]]; then
   source c60_86box.sh
 fi
 source c51_clamav.sh
-source ~/.zshrc
 exit 0

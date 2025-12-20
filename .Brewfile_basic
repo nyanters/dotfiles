@@ -1,6 +1,6 @@
 tap "filosottile/musl-cross"
 tap "nohajc/anylinuxfs"
-tap "nyanters/tap"
+tap "lache-sys/tap"
 tap "slp/krun"
 brew "atool"
 brew "bash"
