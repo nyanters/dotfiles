@@ -1,3 +1,4 @@
-cask "emusc", args: { appdir: "~/Applications" }
+cask "crossover", args: { appdir: "~/Applications" }
+cask "fujitsu-scansnap-home", args: { appdir: "~/Applications" }
 cask "hhkb"
 cask "steam"

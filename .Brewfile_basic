@@ -105,7 +105,6 @@ cask "blender"
 cask "c700"
 cask "chatgpt", args: { appdir: "~/Applications" }
 cask "cog-app", args: { appdir: "~/Applications" }
-cask "crossover", args: { appdir: "~/Applications" }
 cask "cryptomator", args: { appdir: "~/Applications" }
 cask "crystalfetch", args: { appdir: "~/Applications" }
 cask "dexed", args: { appdir: "~/Applications" }
@@ -113,6 +112,7 @@ cask "discord", args: { appdir: "~/Applications" }
 cask "dolphin", args: { appdir: "~/Applications" }
 cask "dropbox", args: { appdir: "~/Applications" }
 cask "duckstation", args: { appdir: "~/Applications" }
+cask "emusc", args: { appdir: "~/Applications" }
 cask "font-aguafina-script"
 cask "font-alegreya"
 cask "font-alegreya-sans"
@@ -185,12 +185,11 @@ cask "font-zen-old-mincho"
 cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
-cask "fujitsu-scansnap-home", args: { appdir: "~/Applications" }
 cask "fuse-t"
 cask "google-drive"
 cask "handbrake-app", args: { appdir: "~/Applications" }
 cask "kamvas-pro-13-2-5k-driver", args: { appdir: "~/Applications" }
-cask "syntax-highlight", args: { appdir: "~/Applications" }
+cask "karabiner-elements"
 cask "twine-app", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"
