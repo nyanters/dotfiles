@@ -1,7 +1,7 @@
 #!usr/bin/env bash
 set -euo pipefail
-MENU="minimal mas rosetta full manager"
-PS3="Choose your option (1-5):"
+MENU="minimal mas rosetta full"
+PS3="Choose your option (1-4):"
 if [[ -f ~/.Brewfile ]]; then
   rm ~/.Brewfile
 elif [[ -L ~/.Brewfile ]]; then
@@ -11,33 +11,19 @@ select val in ${MENU}; do
   case ${val} in
     minimal)
       brew bundle --file ~/.Brewfile_basic -v
-      brew bundle cleanup -f --file ~/.Brewfile_basic
+      brew bundle cleanup -f -v --file ~/.Brewfile_basic
       break
       ;;
-    mas)
+    mas|rosetta)
       cat ~/.Brewfile_{basic,${val}} >> ~/.Brewfile
       brew bundle --global -v
-      brew bundle cleanup -f --global
-      rm ~/.Brewfile
-      break
-      ;;
-    rosetta)
-      cat ~/.Brewfile_{basic,rosetta,wine} >> ~/.Brewfile
-      brew bundle --global -v
-      brew bundle cleanup -f --global
+      brew bundle cleanup -f -v --global
       rm ~/.Brewfile
       break
       ;;
     full)
-      cat ~/.Brewfile_{basic,mas,rosetta,wine} >> ~/.Brewfile
-      brew bundle --global -v
-      brew bundle cleanup -f --global
-      rm ~/.Brewfile
-      break
-      ;;
-    manager)
       cat ~/.Brewfile_* >> ~/.Brewfile
-      brew bundle --global
+      brew bundle --global -v
       brew bundle cleanup -f --global
       rm ~/.Brewfile
       break
