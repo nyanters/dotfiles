@@ -14,6 +14,8 @@ if [[ "$(uname)" == "Darwin" ]]; then
   source m02_defaults.sh
   source m03_finder.sh
   source m04_brew.sh
+  eval "$(/usr/libexec/path_helper)"
+  cd "${SCR_DIR}"
   source m05_tlmgr.sh
 fi
 if [[ "$(uname)" == "Linux" ]]; then
