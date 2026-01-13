@@ -80,8 +80,17 @@ function lsg_main () {
   cd ${_pwd}
   return 0
 }
-
-function ppp_main () {
+function ppp_aud_main () {
+  for i in *${1}; do
+    _txt="$(basename ${i} ${1}).txt"
+    echo "file ${i}.bak" > ${_txt}
+    mv ${i} "${i}.bak"
+    ffmpeg -f concat -i ${_txt} -safe 0 -acodec copy -vn ${i}
+    rm ${_txt}
+  done
+  return 0
+}
+function ppp_vid_main () {
   for i in *${1}; do
     _txt="$(basename ${i} ${1}).txt"
     echo "file ${i}.bak" > ${_txt}
