@@ -16,6 +16,7 @@ brew "libavif"
 brew "chafa"
 brew "clamav"
 brew "cmake"
+brew "coreutils"
 brew "cuetools"
 brew "deno"
 brew "dmg2img"
@@ -29,12 +30,12 @@ brew "eza"
 brew "fastfetch"
 brew "fdupes"
 brew "felinks"
-brew "gnutls"
 brew "ffmpeg"
 brew "figlet"
 brew "fzf"
 brew "gh"
 brew "git"
+brew "gnupg"
 brew "pkgconf"
 brew "py3cairo"
 brew "highlight"
@@ -93,10 +94,10 @@ brew "vulkan-tools"
 brew "w3m"
 brew "wakeonlan"
 brew "wget"
+brew "witr"
 brew "xsel"
 brew "zsh"
 brew "zsh-completions"
-cask "86box", args: { appdir: "~/Applications" }
 cask "adguard", args: { appdir: "~/Applications" }
 cask "adobe-acrobat-pro", args: { appdir: "~/Applications" }
 cask "adobe-creative-cloud"
@@ -193,11 +194,14 @@ cask "font-zilla-slab"
 cask "font-zilla-slab-highlight"
 cask "freefilesync", args: { appdir: "~/Applications" }
 cask "fuse-t"
+cask "google-chrome", args: { appdir: "~/Applications" }
 cask "google-drive"
 cask "handbrake-app", args: { appdir: "~/Applications" }
 cask "kamvas-pro-13-2-5k-driver", args: { appdir: "~/Applications" }
 cask "karabiner-elements"
 cask "magical-8bit-plug"
+cask "qlvideo", args: { appdir: "~/Applications" }
+cask "steamcmd", args: { appdir: "~/Applications" }
 cask "twine-app", args: { appdir: "~/Applications" }
 cask "unity"
 cask "unity-hub"

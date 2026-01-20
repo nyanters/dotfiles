@@ -14,3 +14,4 @@ mas "Pure Paste", id: 1611378436
 mas "Spark", id: 1176895641
 mas "Xcode", id: 497799835
 mas "Yoink", id: 457622435
+cargo "minau"
