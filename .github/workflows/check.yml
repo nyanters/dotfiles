@@ -13,7 +13,7 @@ jobs:
       - name: Install required packages
         run: apt install -y bash git sudo
       - name: Install dotfiles
-        run: make
+        run: bash bin/c00_install.sh
 
   alpine:
     runs-on: ubuntu-latest
@@ -23,7 +23,7 @@ jobs:
       - name: Install required packages
         run: apk add git sudo bash
       - name: Install dotfiles
-        run: make
+        run: bash bin/c00_install.sh
 
   arch:
     runs-on: ubuntu-latest
@@ -35,4 +35,4 @@ jobs:
       - name: Install required packages
         run: pacman -S --noconfirm bash git sudo
       - name: Install dotfiles
-        run: make
+        run: bash bin/c00_install.sh
